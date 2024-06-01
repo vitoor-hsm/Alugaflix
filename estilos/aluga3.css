@@ -1,0 +1,35 @@
+body {
+    background-color: #2d2b2b;
+}
+h2{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h3{
+    color: white;
+}
+#pix{
+    color: white;
+    text-align: center;
+}
+img{
+    height: 15rem;
+    margin: 0 auto;
+}
+#qrcode{
+    margin: auto;
+    text-align: center;
+}
+label{
+    color: white;
+}
+input{
+    width: 40rem;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+#enviar{
+    width: 10rem;
+}

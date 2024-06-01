@@ -1,0 +1,192 @@
+/* Estilos para dispositivos móveis */
+@media (max-width: 600px) {
+    header {
+        font-size: 1.2rem;
+        height: 6rem;
+        padding: 0.5rem;
+    }
+}
+
+/* Estilos para tablets */
+@media (min-width: 601px) and (max-width: 900px) {
+    header {
+        font-size: 1.5rem;
+        height: 7rem;
+        padding: 0.75rem;
+    }
+}
+
+/* Estilos para desktops */
+@media (min-width: 901px) {
+    header {
+        font-size: 1.8rem;
+        height: 8rem;
+        padding: 1rem;
+    }
+}
+
+/* Estilos para dispositivos móveis */
+@media (max-width: 600px) {
+    #cartaz div {
+        width: 100%;
+        margin: 10px 0;
+    }
+}
+
+/* Estilos para tablets */
+@media (min-width: 601px) and (max-width: 900px) {
+    #cartaz div {
+        width: 48%;
+        margin: 1%;
+    }
+}
+
+/* Estilos para desktops */
+@media (min-width: 901px) {
+    #cartaz div {
+        width: 20%;
+        margin: 4px 1%;
+    }
+}
+
+/* Estilos para tablets */
+@media (max-width: 1480px) {
+    #botoes {
+        
+        /* margin-left: calc(-5%); */
+        width: 100%;
+        margin-left:rem;
+    }
+    .botao-acao {
+        margin-top: 2rem;
+        padding-left: 6rem;
+        padding-right: 6rem;
+    }
+    
+    #ass1{
+        margin-left: 80% - 10%;
+    }
+    #ass2{
+        margin-left: calc(100% - 89.3% );
+    }
+    #ass3{
+        margin: 70% - 19%;
+    }
+    #ass4{
+        margin: 74% - 26%;
+        margin-top: -1rem;
+        position: absolute;
+    }
+    #ass5 {
+        /* margin-top: -2rem; */
+    }
+
+    #ass6 {
+        margin-left: 37rem;
+        margin-top: -29px;
+        position: absolute;
+    }
+
+    #ass7 {
+        margin-left: 73rem;
+        margin-top: -29px;
+        position: absolute;
+    }
+
+    #ass8 {
+        margin-left: 109rem;
+        margin-top: -29px;
+        position: absolute;
+    }
+
+    .botao-alu {
+        background: linear-gradient(to left, #000080, #000, #000080);
+        color: white;
+        text-align: center;
+        padding: 1rem;
+        padding-left: 5rem;
+        padding-right: 5rem;
+        border-radius: 20px;
+        font-size: 1.5rem;
+
+    }
+
+    #carrinho1{
+        font-size: 20px;
+        margin-left: 10px;
+        background-color: #2d2b2b;
+        
+    }
+    #carrinho2{
+        font-size: 20px;
+        margin-left: 53rem;
+        margin-top: -25px;
+        position: absolute;
+        background-color: #2d2b2b;
+        
+    }
+    #carrinho3{
+        font-size: 20px;
+        margin-left: 89rem;
+        margin-top: -25px;
+        position: absolute;
+        background-color: #2d2b2b;
+    }
+    #carrinho4{
+        font-size: 20px;
+        margin-left: 124rem;
+        margin-top: -25px;
+        position: absolute;
+        background-color: #2d2b2b;
+    }
+    .adicionar{
+        background-color: rgb(74, 249, 74);
+        margin-left: 10rem;
+        margin-right: 5px;
+    }
+    #adc1{
+        margin-left: 21rem;
+        margin-top: -20px ;
+        position: absolute;
+    }
+    #adc2{
+        margin-left: 56rem;
+        margin-top: -20px ;
+        position: absolute;
+    }
+
+    #adc3{
+        margin-left: 92rem;
+        margin-top: -20px ;
+        position: absolute;
+    }
+    #adc4{
+        margin-left: 127rem;
+        margin-top: -20px ;
+        position: absolute;
+    }
+    .remover{
+        background-color:rgb(131, 7, 7);
+    }
+    #remov1{
+        margin-left: 24rem;
+        margin-top: -20px ;
+        position: absolute;
+    }
+    #remov2{
+        margin-left: 59rem;
+        margin-top: -20px ;
+        position: absolute;
+    }
+    #remov3{
+        margin-left: 95rem;
+        margin-top: -20px ;
+        position: absolute;
+    }
+    #remov4{
+        margin-left: 130rem;
+        margin-top: -20px ;
+        position: absolute;
+    }
+}
+

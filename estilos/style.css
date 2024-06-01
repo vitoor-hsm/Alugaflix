@@ -1,0 +1,536 @@
+* {
+    box-sizing: border-box;
+}
+
+ /* header {
+    background: linear-gradient(to right, #000, #000080, #000);
+    color: #fff;
+    font-size: 1.8rem;
+    padding: 1rem;
+    width: 100%;
+    height: 8rem;
+    z-index: 1;
+     
+}  */
+header {
+    background: linear-gradient(to right, #000, #000080, #000);
+    color: #fff;
+    font-size: 1.8rem;
+    padding: 1rem;
+    width: 100%;
+    height: 8rem;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+
+/* aqui iniciamos a estrutura  */
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 62.5%;
+    overflow-x: hidden;
+    /* overflow-x: hidden; serve para esconder a rolagem horizontal */
+}
+
+body {
+    background-color: #2d2b2b;
+}
+
+/* aqui iniciamos as fontes */
+
+p {
+    font-size: 1.6rem;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 300px;
+    height: 35px;
+    margin: auto;
+    padding-top: 5px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background: linear-gradient(to right, #000, #000080, #000);
+
+}
+#titulop{
+    background: none;
+    margin:  0 auto;
+    text-align: center;
+    position: absolute;
+    font-family: cursive;
+    border: none;
+    margin-bottom: 3rem;
+}
+
+h2 {
+    font-size: 1.9rem;
+    padding-bottom: 1rem;
+    text-align: center;
+}
+
+h2#titulo-topo {
+    font-size: 3rem;
+}
+
+h2.titulo-corpo {
+    font-size: 2.5rem;
+    color: blue;
+}
+
+h3 {
+    font-size: 1.7rem;
+}
+
+h4 {
+    font-size: 1.6rem;
+    color: (0, 155, 0);
+    font-weight: bold;
+    text-shadow: 1px 1px 2px black;
+}
+h3#irpara{
+    color: white;
+    width: 24rem;
+    height: 4rem;
+    text-align: center;
+    margin: 0 auto;
+    background: linear-gradient(to right, #000, #000080, #000);
+    border-radius: 20px;
+    padding-top: 10px;
+    margin-bottom: 5rem;
+}
+h4#prod{
+    text-shadow: none;
+    font-size: 30px;
+    color: aqua;
+}
+td,th{
+    color: white;
+    padding-left: 8px;
+}
+th{
+    font-size: 20px;
+    
+}
+td{
+    font-size: 15px;
+}
+#adc{
+    background-color: #2d2b2b;
+    font-size: 15px;
+}
+
+/* controle de imagens */
+
+/* #cartaz {
+    /* border: 1px solid white; 
+    overflow: hidden;
+} */
+#cartaz {
+    /* border: 1px solid white; */
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#cartaz div {
+    width: 20%;
+    margin: 4px 1%;
+    box-sizing: border-box;
+}
+
+#kungfu {
+    width: 20%;
+    height: 449px;
+}
+
+
+
+
+#plmc {
+    width: 20%;
+    margin-left: 5px;
+    margin-bottom: -4.3px;
+    height: 449px;
+}
+
+#kongGz {
+    width: 20%;
+    margin-left: 20px;
+    height: 449px;
+}
+
+#guerracivil {
+    width: 20%;
+    margin-left: 20px;
+    height: 449px;
+}
+
+#kungfu {
+    width: 20%;
+    height: 449px;
+    margin-left: 30px;
+
+}
+/* SERIES */
+#fallout {
+    height: 449px;
+    width: 20%;
+    margin-left: 5px;
+}
+#break {
+    width: 20%;
+    margin-left: 20px;
+    height: 449px;
+}
+#chosen {
+    width: 20%;
+    margin-left: 20px;
+    height: 449px;
+}
+#suits {
+    width: 20%;
+    height: 449px;
+    margin-left: 30px;
+
+}
+/* fim das seires */
+/* Inicio dos alugaveis */
+#atehomem {
+    height: 449px;
+    width: 20%;
+    margin-left: 5px;
+}
+#inter {
+    width: 20%;
+    margin-left: 20px;
+    height: 449px;
+}
+#avatar {
+    width: 20%;
+    margin-left: 20px;
+    height: 449px;
+}
+#creed {
+    width: 20%;
+    height: 449px;
+    margin-left: 30px;
+
+}
+/* Fim dos alugaveis */
+#flutuante {
+    /* border: 1px solid white; */
+    height: 100px;
+    width: 100px;
+    margin-left: 137rem;
+    margin-top: -25rem;
+    margin-bottom: 18rem;
+
+}
+
+/* #setadireita {
+    width: 100px;
+    margin-left: 2rem;
+}
+#setadireita div {
+    width: 20%;
+    margin: 4px 1%;
+    box-sizing: border-box;
+} */
+
+/* Estilos para dispositivos móveis
+@media (max-width: 600px) {
+    #setadireita div {
+        width: 100%;
+        margin: 10px 0;
+    }
+}
+
+/* Estilos para tablets 
+@media (min-width: 601px) and (max-width: 900px) {
+    #setadireita div {
+        width: 48%;
+        margin: 1%;
+    }
+}
+
+/* Estilos para desktops 
+@media (min-width: 901px) {
+    #setadireita div {
+        width: 20%;
+        margin: 4px 1%;
+    }
+} */
+
+
+#logo {
+    height: 6rem;
+    width: 55px;
+    margin-left: 5rem;
+    /* border: 1px solid white; */
+}
+.cart {
+    position: fixed;
+    bottom: 100px;
+    right: 10px;
+    border: 1px solid #000;
+    padding: 30px;
+    background: rgb(24, 9, 62);
+    color: white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px #873e3e;
+}
+/* Acaba aqui */
+
+/* Inicio dos botões */
+.botao-acao {
+    background: linear-gradient(to left, #000080, #000, #000080);
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    padding-left: 8.6rem;
+    padding-right: 10rem;
+    margin-bottom: 20px;
+    margin-left: 5%;
+    border-radius: 20px;
+    font-size: 1.5rem;
+}
+
+#ass1 {
+    margin-left: 4.5rem;
+    
+}
+
+#ass2 {
+    margin-left: 15.5rem;
+    
+}
+
+#ass3 {
+    margin-left: 14rem;
+}
+
+#ass4 {
+    margin-left: 17rem;
+}
+#ass5 {
+    margin-top: -2rem;
+}
+
+#ass6 {
+    margin-left: 42rem;
+    margin-top: -29px;
+    position: absolute;
+}
+
+#ass7 {
+    margin-left: 81rem;
+    margin-top: -29px;
+    position: absolute;
+}
+
+#ass8 {
+    margin-left: 122rem;
+    margin-top: -29px;
+    position: absolute;
+}
+
+.botao-alu {
+    background: linear-gradient(to left, #000080, #000, #000080);
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    padding-left: 6.6rem;
+    padding-right: 7rem;
+    margin-left: 18px;
+    border-radius: 20px;
+    font-size: 1.5rem;
+
+}
+
+#carrinho1{
+    font-size: 20px;
+    margin-left: 10px;
+    background-color: #2d2b2b;
+    
+}
+#carrinho2{
+    font-size: 20px;
+    margin-left: 61rem;
+    margin-top: -25px;
+    position: absolute;
+    background-color: #2d2b2b;
+    
+}
+#carrinho3{
+    font-size: 20px;
+    margin-left: 100rem;
+    margin-top: -25px;
+    position: absolute;
+    background-color: #2d2b2b;
+}
+#carrinho4{
+    font-size: 20px;
+    margin-left: 141rem;
+    margin-top: -25px;
+    position: absolute;
+    background-color: #2d2b2b;
+}
+.adicionar{
+    background-color: rgb(74, 249, 74);
+    margin-left: 10rem;
+    margin-right: 5px;
+}
+#adc1{
+    margin-left: 24.5rem;
+    margin-top: -20px ;
+    position: absolute;
+}
+#adc2{
+    margin-left: 64rem;
+    margin-top: -20px ;
+    position: absolute;
+}
+
+#adc3{
+    margin-left: 103rem;
+    margin-top: -20px ;
+    position: absolute;
+}
+#adc4{
+    margin-left: 144rem;
+    margin-top: -20px ;
+    position: absolute;
+}
+.remover{
+    background-color:rgb(131, 7, 7);
+}
+#remov1{
+    margin-left: 27.5rem;
+    margin-top: -20px ;
+    position: absolute;
+}
+#remov2{
+    margin-left: 67rem;
+    margin-top: -20px ;
+    position: absolute;
+}
+#remov3{
+    margin-left: 106rem;
+    margin-top: -20px ;
+    position: absolute;
+}
+#remov4{
+    margin-left: 147rem;
+    margin-top: -20px ;
+    position: absolute;
+}
+
+/* fim dos botoes */
+/* nav {
+    margin-top: -5rem;
+    text-align: right;
+    font-size: 1.6rem;
+    word-spacing: 10px;
+    margin-right: 5%;
+    padding-bottom: 5px;
+     border: 1px solid white; 
+    width: 26rem;
+    margin-left: 120rem;
+} */
+nav {
+    margin-top: -3rem;
+    text-align: right;
+    font-size: 1.6rem;
+    word-spacing: 20px;
+    margin-right: 5%;
+    padding-bottom: 5px;
+    /* border: 1px solid white; */
+    width: auto; /* Ajuste a largura automaticamente */
+    display: flex;
+    justify-content: flex-end;
+    box-sizing: border-box;
+
+}
+
+/* Estilos para dispositivos móveis */
+@media (max-width: 600px) {
+    nav {
+        font-size: 1.2rem;
+        word-spacing: 5px;
+        margin-top: -2rem;
+        margin-left: 0;
+        margin-right: 2%;
+        padding-bottom: 3px;
+        width: 100%; /* Use 100% para ocupar a largura total disponível */
+    }
+}
+
+/* Estilos para tablets */
+@media (min-width: 601px) and (max-width: 900px) {
+    nav {
+        font-size: 1.4rem;
+        word-spacing: 8px;
+        margin-top: -3rem;
+        margin-left: 0;
+        margin-right: 3%;
+        padding-bottom: 4px;
+        width: 100%; /* Use 100% para ocupar a largura total disponível */
+    }
+}
+
+/* Estilos para desktops */
+@media (min-width: 901px) {
+    nav {
+        font-size: 1.6rem;
+        word-spacing: 10px;
+        margin-top: -1rem;
+        margin-left: auto; /* Centraliza o conteúdo no layout flexível */
+        margin-right: 5%;
+        padding-bottom: 5px;
+        width: auto; /* Use largura automática */
+    }
+}
+
+
+a {
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-top: ;
+}
+
+a:hover {
+    color: #ffffff;
+    border-bottom: solid blue;
+    text-shadow: 2px 2px 3px black;
+}
+
+
+li {
+    text-align: left;
+}
+
+figcaption {
+    background: linear-gradient(to right, #000, #000080, #000);
+    width: 70%;
+    padding: 1rem;
+    margin: 0 auto;
+    border-radius: 20px;
+}
