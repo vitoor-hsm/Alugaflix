@@ -24,12 +24,12 @@ if(mysqli_num_rows ($result) > 0 ){
 	$row = mysqli_fetch_array($result);
 	$_SESSION['nome'] = $row['nome'];
 	$_SESSION['id_usuario'] = $row['id_usuario'];
-	header('location: main.php');	
+	header('location: ../html/index.php');	
 }else{
 	echo("Usuário ou senha inválido!!");
 	unset ($_SESSION['email']);
 	unset ($_SESSION['senha']);
-	header('location: ../index.html');
+	header('location: ../html/login.html');
 	// removendo todas as sessões
 	session_start();
 	session_destroy();
