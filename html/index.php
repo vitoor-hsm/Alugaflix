@@ -138,7 +138,7 @@
         <button type="button" id="cadastrarProduto">
             <a id="adc" href="../php/form_produto.php">Adicionar sugestão</a>
         </button>
-        <h4 id="prod">Produtos</h4>
+        <h4 id="prod">Sugestões:</h4>
         <div id="resultado">
         
         </div>
