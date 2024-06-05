@@ -89,6 +89,13 @@ h2.titulo-corpo {
     font-size: 2.5rem;
     color: blue;
 }
+h2#sug{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    
+    
+}
 
 h3 {
     font-size: 1.7rem;
@@ -130,6 +137,20 @@ td{
 #adc{
     background-color: #2d2b2b;
     font-size: 15px;
+}
+.visualizar{
+    padding: 8px;
+    border-radius: 10px;
+    background-color: #000080;
+    color: white;
+    font-weight: bold;
+}
+.excluir{
+    padding: 8px;
+    border-radius: 10px;
+    background-color: #000080;
+    color: white;
+    font-weight: bold;
 }
 
 /* controle de imagens */

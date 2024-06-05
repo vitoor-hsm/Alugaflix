@@ -133,7 +133,7 @@
     <script src="../js/carrinho.js"></script>
     <script src="../js/produtos.js"></script>
     <br>
-    
+    <h2 id="sug">Deseja adicionar alguma sugestão de filme ou série ao nosso site?</h2>
     <main id="principal">
         <button type="button" id="cadastrarProduto">
             <a id="adc" href="../php/form_produto.php">Adicionar sugestão</a>
