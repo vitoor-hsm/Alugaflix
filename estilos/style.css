@@ -51,7 +51,9 @@ body {
 p {
     font-size: 1.6rem;
 }
-
+label{
+    background-color: #000;
+}
 h1 {
     text-align: center;
     color: white;
@@ -117,6 +119,11 @@ h3#irpara{
     border-radius: 20px;
     padding-top: 10px;
     margin-bottom: 5rem;
+}
+h3#irpara:hover{
+    color: #ffffff;
+    border-bottom: solid blue;
+    text-shadow: 2px 2px 3px black;
 }
 h4#prod{
     text-shadow: none;
@@ -310,14 +317,15 @@ td{
 }
 .cart {
     position: fixed;
+    padding: 10px;
     bottom: 100px;
     right: 10px;
-    border: 1px solid #000;
+    border: 3px solid #ad4f4f;
     padding: 30px;
     background: rgb(24, 9, 62);
     color: white;
     border-radius: 10px;
-    box-shadow: 2px 2px 2px #873e3e;
+    box-shadow: 4px 4px 4px #873e3e;
 }
 /* Acaba aqui */
 
@@ -549,6 +557,7 @@ a:hover {
 
 li {
     text-align: left;
+    font-size: 18px;
 }
 
 figcaption {

@@ -1,39 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        body{
-            background-color: #2d2b2b;
-            color: white;
-        }
-        form input[type="text"]{
-            border-radius: 10px;
-            padding: 6px;
-        }
-        form input[type="submit"] {
-            width: calc(10% - 0px);
-            padding: 5px;
-            margin: 10px 0;
-            background-color: #4caf50;
-            color: #fff;
-            border: none;
-            cursor: pointer;
-            border-radius: 10px;
-        }
-    </style>
+    <title>cadastrarProdutos</title>
+    
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="../estilos/login.css">
+    <link rel="stylesheet" href="../estilos/media-query.css">
+    <link rel="stylesheet" href="../estilos/adicionar.css">
 </head>
+
 <body>
-    <form method="POST" action="cadastrarProdutos.php">
-        <label>Nome:</label>
-        <input type="text" id="nome" name="nome">
-        <label>Gênero:</label>
-        <input type="text" id="genero" name="genero">
-        <label>Descrição:</label>
-        <input type="text" id="descricao" name="descricao">
-        <input type="submit" value="Cadastrar">
-    </form>
+    <main>
+        <section id="login">
+            <div id="imagem">
+
+            </div>
+            <div id="formulario">
+                <h1>Adicione uma Sugestão</h1>
+                <p>
+                    Adicione algum filme que gostaria de assistir em nossa plataforma e em breve ele será adicionado </p>
+                <form method="POST" action="cadastrarProdutos.php">
+                    <label id="fundo1">Nome do filme : 
+                    </label>
+                    <input type="text" id="nome" name="nome" placeholder="Nome do filme" required maxlength="30">
+                    <br>
+                    <label id="fundo2" >Gênero do filme :</label>
+                    <input type="text" id="genero" name="genero" placeholder="Ação, drama, comédia, etc." required maxlength="30">
+                    <br>
+                    <label>Descrição do filme :</label>
+                    <input type="text" id="descricao" name="descricao" placeholder="Uma breve descrição (opcional)">
+                    <br>
+                    <input type="submit" value="Cadastrar">
+                    <a href="../html/index.php">Voltar para tela principal</a>
+                </form>
+
 </body>
+
 </html>
