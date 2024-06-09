@@ -32,7 +32,7 @@ label{
 }
 a{
   position: absolute;
-  background-color: #464c46;
+  background-color: #ffffff;
   border-radius: 10px;
   text-align: center;
   padding-top: 5px;
@@ -41,8 +41,9 @@ a{
   margin: auto;
   margin-top: 1rem;
   text-decoration: none;
-  color: white;
+  color: rgb(0, 0, 0);
 }
 a:hover{
     background-color: #332c2c;
+    color: white;
 }

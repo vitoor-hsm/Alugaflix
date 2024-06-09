@@ -149,6 +149,7 @@ form input[type="submit"] {
 }
 form input[type="submit"]:hover {
     background-color: #332c2c;
+    transition: 600ms;
 }
 form>a.botao {
     display: block;
@@ -168,6 +169,7 @@ form>a.botao {
 
 form>a.botao:hover {
     background-color: #2d7543db;
+    transition: 600ms;
 }
 
 form>a.botao>i {

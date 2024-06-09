@@ -126,9 +126,10 @@ h3#irpara:hover{
     text-shadow: 2px 2px 3px black;
 }
 h4#prod{
+    margin-top: 10px;
     text-shadow: none;
-    font-size: 30px;
-    color: aqua;
+    font-size: 23px;
+    color: rgb(255, 255, 255);
 }
 td,th{
     color: white;
@@ -146,7 +147,8 @@ td{
 }
 #adc{
     background-color: #2d2b2b;
-    font-size: 15px;
+    font-size: 25px;
+    
 }
 .visualizar{
     padding: 8px;
