@@ -26,13 +26,16 @@ if(mysqli_num_rows ($result) > 0 ){
 	$_SESSION['id_usuario'] = $row['id_usuario'];
 	header('location: ../html/index.php');	
 }else{
-	echo("Usuário ou senha inválido!!");
+	echo '<script>
+    alert("Usuário ou senha inválido!!");
+    window.location.href = "../html/login.html";
+	</script>';
 	unset ($_SESSION['email']);
 	unset ($_SESSION['senha']);
-	header('location: ../html/login.html');
 	// removendo todas as sessões
 	session_start();
 	session_destroy();
 	unset( $_SESSION );
 }
+
 ?>

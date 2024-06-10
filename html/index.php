@@ -129,9 +129,6 @@
         <p>Total: R$ <span id="cart-total">0.00</span></p>
     </div>
         <h3 id="irpara">Ir para o carrinho</h3>
-    <script src="../js/compras.js"></script>
-    <script src="../js/carrinho.js"></script>
-    <script src="../js/produtos.js"></script>
     <br>
     <h2 id="sug">Deseja adicionar alguma sugestão de filme ou série ao nosso site?</h2>
     <main id="principal">
@@ -142,7 +139,10 @@
         <div id="resultado">
         
         </div>
-    <br><br>
+    <br><br> 
+    <script src="../js/compras.js"></script>
+    <script src="../js/carrinho.js"></script>
+    <script src="../js/produtos.js"></script>
 </body>
 
 </html>
